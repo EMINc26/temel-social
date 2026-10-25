@@ -1,0 +1,32 @@
+# Kostenlose Supabase-Projekte pausieren nach 7 Tagen ohne Datenbankzugriff.
+# Eine kleine Leseabfrage pro Tag und Projekt hält sie wach.
+# Secrets: je Projekt <NAME>_URL und <NAME>_ANON (öffentlicher anon-Schlüssel).
+name: Supabase wachhalten
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    strategy:
+      fail-fast: false
+      matrix:
+        projekt:
+          - { name: temel-studio, url: TEMEL_STUDIO_URL, anon: TEMEL_STUDIO_ANON, tabelle: einstellungen }
+          - { name: igmg, url: IGMG_URL, anon: IGMG_ANON, tabelle: admin_docs }
+    steps:
+      - name: ${{ matrix.projekt.name }} abfragen
+        env:
+          URL: ${{ secrets[matrix.projekt.url] }}
+          ANON: ${{ secrets[matrix.projekt.anon] }}
+        run: |
+          if [ -z "$URL" ]; then echo "Secret fehlt, übersprungen"; exit 0; fi
+          curl -sS --fail-with-body -m 30 -o /dev/null -w "HTTP %{http_code}\n" \
+            "$URL/rest/v1/${{ matrix.projekt.tabelle }}?select=*&limit=1" \
+            -H "apikey: $ANON" -H "Authorization: Bearer $ANON"

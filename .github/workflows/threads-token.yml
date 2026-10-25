@@ -1,0 +1,25 @@
+# Threads-Token gilt 60 Tage. Jeden Sonntag erneuern und als Secret zurückschreiben.
+# Braucht SECRETS_PAT (fein granularer Token mit Secrets: Read and write für dieses Repo).
+name: Threads-Token erneuern
+
+on:
+  schedule:
+    - cron: "0 3 * * 0"
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  erneuern:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Token erneuern
+        env:
+          THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+          GH_TOKEN: ${{ secrets.SECRETS_PAT }}
+        run: |
+          NEU=$(curl -sS --fail-with-body "https://graph.threads.net/refresh_access_token?grant_type=th_refresh_token&access_token=$THREADS_TOKEN" | jq -r .access_token)
+          if [ -z "$NEU" ] || [ "$NEU" = "null" ]; then echo "Erneuern fehlgeschlagen"; exit 1; fi
+          echo "::add-mask::$NEU"
+          gh secret set THREADS_TOKEN --repo "$GITHUB_REPOSITORY" --body "$NEU"

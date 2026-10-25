@@ -1,0 +1,52 @@
+# Veröffentlicht fällige Posts aus warteschlange/ auf Instagram, Facebook und Threads.
+# GitHub startet geplante Läufe oft einige Minuten verspätet; das ist eingeplant.
+name: Veröffentlichen
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+    inputs:
+      trocken:
+        description: "Nur prüfen, nichts veröffentlichen"
+        type: boolean
+        default: true
+      nur:
+        description: "Nur diese Post-ID (ignoriert die Uhrzeit)"
+        type: string
+        default: ""
+
+concurrency:
+  group: veroeffentlichen
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  posten:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Fällige Posts veröffentlichen
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+          MEDIA_BASE: https://eminc26.github.io/temel-social/
+          TROCKEN: ${{ inputs.trocken && '1' || '0' }}
+          NUR: ${{ inputs.nur }}
+        run: node scripts/veroeffentlichen.mjs
+      - name: Status speichern
+        if: always()
+        run: |
+          git config user.name "temel-social"
+          git config user.email "temel-social@users.noreply.github.com"
+          git add warteschlange
+          git diff --cached --quiet || (git commit -m "Status $(date -u +%FT%TZ)" && git push)
