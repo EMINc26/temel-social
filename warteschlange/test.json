@@ -1,0 +1,65 @@
+{
+  "woche": "test",
+  "hinweis": "Nur für Trockenläufe (status test wird nie echt veröffentlicht).",
+  "posts": [
+    {
+      "id": "test-ig-bild",
+      "kanal": "instagram",
+      "format": "bild",
+      "zeit": "2026-01-01T00:00:00+01:00",
+      "text": "Testlauf",
+      "medien": [
+        "medien/test/test-4x5.jpg"
+      ],
+      "alt": [
+        "Testbild"
+      ],
+      "status": "test"
+    },
+    {
+      "id": "test-ig-karussell",
+      "kanal": "instagram",
+      "format": "karussell",
+      "zeit": "2026-01-01T00:00:00+01:00",
+      "text": "Testlauf",
+      "medien": [
+        "medien/test/test-4x5.jpg",
+        "medien/test/test-4x5.jpg"
+      ],
+      "status": "test"
+    },
+    {
+      "id": "test-fb-bild",
+      "kanal": "facebook",
+      "format": "bild",
+      "zeit": "2026-01-01T00:00:00+01:00",
+      "text": "Testlauf",
+      "medien": [
+        "medien/test/test-4x5.jpg"
+      ],
+      "status": "test"
+    },
+    {
+      "id": "test-threads-bild",
+      "kanal": "threads",
+      "format": "bild",
+      "zeit": "2026-01-01T00:00:00+01:00",
+      "text": "Testlauf",
+      "medien": [
+        "medien/test/test-4x5.jpg"
+      ],
+      "status": "test"
+    },
+    {
+      "id": "test-ig-reel",
+      "kanal": "instagram",
+      "format": "reel",
+      "zeit": "2026-01-01T00:00:00+01:00",
+      "text": "Testlauf",
+      "medien": [
+        "medien/test/reel.mp4"
+      ],
+      "status": "test"
+    }
+  ]
+}

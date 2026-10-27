@@ -109,7 +109,14 @@ async function facebook(post) {
   const t = env.FB_PAGE_TOKEN, page = env.FB_PAGE_ID;
   const m = post.medien || [];
   const text = post.text || "";
-  if (TROCKEN) return { id: "trocken" };
+  if (TROCKEN) {
+    // Unveröffentlichtes Foto anlegen und gleich wieder löschen: prüft Recht und Medien-URL.
+    const bild = m.find((p) => !istVideo(p));
+    if (!bild) return { id: "trocken" };
+    const r = await api(GRAPH, `/${page}/photos`, { methode: "POST", token: t, felder: { url: url(bild), published: "false" } });
+    await api(GRAPH, `/${r.id}`, { methode: "DELETE", token: t });
+    return { id: `trocken:${r.id}` };
+  }
 
   if (post.format === "text" || m.length === 0) {
     const r = await api(GRAPH, `/${page}/feed`, { methode: "POST", token: t, felder: { message: text } });
@@ -178,6 +185,7 @@ for (const datei of dateien.sort()) {
   for (const post of woche.posts) {
     if (erledigt >= MAX_PRO_LAUF) break;
     if (NUR ? post.id !== NUR : post.status !== "geplant") continue;
+    if (post.status === "test" && !TROCKEN) continue; // Testeinträge nie echt veröffentlichen
     const faellig = new Date(post.zeit).getTime();
     if (!NUR && faellig > jetzt) continue;
 
