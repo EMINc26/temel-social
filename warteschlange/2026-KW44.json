@@ -181,7 +181,12 @@
       "zeit": "2026-10-27T20:00:00+01:00",
       "text": "Kleiner Tipp: Schreib deine Telefonnummer auf der Website als Text mit Link, nicht als Bild. Dann kann man sie am Handy direkt antippen.",
       "medien": [],
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "veroeffentlicht_am": "2026-10-27T19:35:17.855Z",
+      "ergebnis": {
+        "id": "18090618974308813",
+        "link": "https://www.threads.com/@temel.studio/post/DfAnvjPHzl-"
+      }
     },
     {
       "id": "kw44-di-linkedin",
