@@ -13,7 +13,12 @@
       "alt": [
         "Animation in Schwarz, Weiß und Orange. Text: Du kaufst kein Auto, ohne es zu sehen. Warum dann eine Website? Danach der Ablauf: Gespräch, Entwurf kostenlos, Festpreis schriftlich, online in 1 bis 2 Wochen. Ab 890 Euro, Domain und Code gehören dir. Dein erster Entwurf ist kostenlos. temel.studio, Webdesign aus Ibbenbüren."
       ],
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "veroeffentlicht_am": "2026-10-28T20:56:04.477Z",
+      "ergebnis": {
+        "id": "18120880364051154",
+        "link": "https://www.instagram.com/reel/DfDVtzBOPbv/"
+      }
     },
     {
       "id": "kw44-mo-facebook",
@@ -27,7 +32,11 @@
       "alt": [
         "Animation in Schwarz, Weiß und Orange. Text: Du kaufst kein Auto, ohne es zu sehen. Warum dann eine Website? Danach der Ablauf: Gespräch, Entwurf kostenlos, Festpreis schriftlich, online in 1 bis 2 Wochen. Ab 890 Euro, Domain und Code gehören dir. Dein erster Entwurf ist kostenlos. temel.studio, Webdesign aus Ibbenbüren."
       ],
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "veroeffentlicht_am": "2026-10-28T20:56:11.029Z",
+      "ergebnis": {
+        "id": "1144010214713890"
+      }
     },
     {
       "id": "kw44-mo-story",
@@ -37,7 +46,12 @@
       "medien": [
         "medien/2026-KW44/mo-reel.mp4"
       ],
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "veroeffentlicht_am": "2026-10-28T20:57:22.980Z",
+      "ergebnis": {
+        "id": "18153046453546803",
+        "link": "https://www.instagram.com/stories/temel.studio/4018151478635787566"
+      }
     },
     {
       "id": "kw44-mo-tiktok",
@@ -226,7 +240,12 @@
       "zeit": "2026-10-28T20:00:00+01:00",
       "text": "Wie viele Klicks braucht ein Kunde auf deiner Seite bis zur Anfrage? Mein Ziel bei jeder Seite: einer.",
       "medien": [],
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "veroeffentlicht_am": "2026-10-28T20:57:29.422Z",
+      "ergebnis": {
+        "id": "18030630788857430",
+        "link": "https://www.threads.com/@temel.studio/post/DfDV8cIj-DO"
+      }
     },
     {
       "id": "kw44-mi-linkedin",
