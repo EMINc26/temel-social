@@ -212,7 +212,12 @@
       "zeit": "2026-10-28T12:00:00+01:00",
       "text": "Kleiner Test: Öffne deine eigene Website auf dem Handy. Findest du sofort deine Telefonnummer?",
       "medien": [],
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "veroeffentlicht_am": "2026-10-28T15:53:47.748Z",
+      "ergebnis": {
+        "id": "18120520958075399",
+        "link": "https://www.threads.com/@temel.studio/post/DfCzMK9mueE"
+      }
     },
     {
       "id": "kw44-mi-threads-abend",
