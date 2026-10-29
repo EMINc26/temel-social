@@ -121,7 +121,12 @@
         "Folie 6 von 7, weißer Grund: Ein echtes Foto.",
         "Fehlt bei dir etwas davon? Der Website-Check zeigt es dir, kostenlos und ohne Anmeldung."
       ],
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "veroeffentlicht_am": "2026-10-29T19:30:14.676Z",
+      "ergebnis": {
+        "id": "18099270077407899",
+        "link": "https://www.instagram.com/p/DfFwwI6jEv8/"
+      }
     },
     {
       "id": "kw44-di-facebook",
@@ -147,7 +152,11 @@
         "Folie 6 von 7, weißer Grund: Ein echtes Foto.",
         "Fehlt bei dir etwas davon? Der Website-Check zeigt es dir, kostenlos und ohne Anmeldung."
       ],
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "veroeffentlicht_am": "2026-10-29T19:30:32.197Z",
+      "ergebnis": {
+        "id": "1106068909265831_122156421699388723"
+      }
     },
     {
       "id": "kw44-di-story",
@@ -157,7 +166,9 @@
       "medien": [
         "medien/2026-KW44/di-1.jpg"
       ],
-      "status": "geplant"
+      "status": "geplant",
+      "versuche": 1,
+      "fehler": "POST /17841414918834298/media_publish: Media ID is not available (Die Medien können noch nicht veröffentlicht werden. Bitte warte noch einen Moment.)"
     },
     {
       "id": "kw44-di-tiktok",
@@ -277,7 +288,12 @@
       "zeit": "2026-10-29T20:00:00+01:00",
       "text": "Was ist für dich typisch Ibbenbüren?",
       "medien": [],
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "veroeffentlicht_am": "2026-10-29T19:30:44.677Z",
+      "ergebnis": {
+        "id": "18204656752326673",
+        "link": "https://www.threads.com/@temel.studio/post/DfFwzncib6h"
+      }
     },
     {
       "id": "kw44-do-linkedin",
