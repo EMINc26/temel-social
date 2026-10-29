@@ -166,7 +166,7 @@
       "medien": [
         "medien/2026-KW44/di-1.jpg"
       ],
-      "status": "geplant",
+      "status": "verpasst",
       "versuche": 1,
       "fehler": "POST /17841414918834298/media_publish: Media ID is not available (Die Medien können noch nicht veröffentlicht werden. Bitte warte noch einen Moment.)"
     },
