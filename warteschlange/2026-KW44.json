@@ -263,7 +263,12 @@
       "zeit": "2026-10-29T12:00:00+01:00",
       "text": "Websites aus Ibbenbüren, für die Region. Gespräch per Video oder bei dir vor Ort, ein fester Ansprechpartner.",
       "medien": [],
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "veroeffentlicht_am": "2026-10-29T13:45:48.501Z",
+      "ergebnis": {
+        "id": "18113955869117856",
+        "link": "https://www.threads.com/@temel.studio/post/DfFJVfim6DC"
+      }
     },
     {
       "id": "kw44-do-threads-abend",
