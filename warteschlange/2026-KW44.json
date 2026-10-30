@@ -328,7 +328,9 @@
         "Folie 6 von 7, weißer Grund: Google.",
         "890 bis 1.400 €. Online in 1 bis 2 Wochen. Der erste Entwurf ist kostenlos, danach Festpreis."
       ],
-      "status": "geplant"
+      "status": "geplant",
+      "versuche": 1,
+      "fehler": "POST /17841414918834298/media_publish: Media ID is not available (Die Medien können noch nicht veröffentlicht werden. Bitte warte noch einen Moment.)"
     },
     {
       "id": "kw44-fr-facebook",
@@ -354,7 +356,11 @@
         "Folie 6 von 7, weißer Grund: Google.",
         "890 bis 1.400 €. Online in 1 bis 2 Wochen. Der erste Entwurf ist kostenlos, danach Festpreis."
       ],
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "veroeffentlicht_am": "2026-10-30T21:07:27.278Z",
+      "ergebnis": {
+        "id": "1106068909265831_122157132237388723"
+      }
     },
     {
       "id": "kw44-fr-story",
@@ -364,7 +370,9 @@
       "medien": [
         "medien/2026-KW44/fr-story.jpg"
       ],
-      "status": "geplant"
+      "status": "geplant",
+      "versuche": 1,
+      "fehler": "POST /17841414918834298/media_publish: Media ID is not available (Die Medien können noch nicht veröffentlicht werden. Bitte warte noch einen Moment.)"
     },
     {
       "id": "kw44-fr-tiktok",
@@ -406,7 +414,12 @@
       "zeit": "2026-10-30T20:00:00+01:00",
       "text": "Festpreis oder Stundensatz: Was ist dir bei einem Auftrag lieber, und warum?",
       "medien": [],
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "veroeffentlicht_am": "2026-10-30T21:07:37.201Z",
+      "ergebnis": {
+        "id": "18496545517128149",
+        "link": "https://www.threads.com/@temel.studio/post/DfIgsZRmCvb"
+      }
     },
     {
       "id": "kw44-fr-linkedin",
