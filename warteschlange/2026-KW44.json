@@ -483,9 +483,13 @@
       "medien": [
         "medien/2026-KW44/sa-story.jpg"
       ],
-      "status": "geplant",
+      "status": "veroeffentlicht",
       "versuche": 1,
-      "fehler": "POST /17841414918834298/media_publish: Media ID is not available (Die Medien können noch nicht veröffentlicht werden. Bitte warte noch einen Moment.)"
+      "veroeffentlicht_am": "2026-10-31T21:23:59.601Z",
+      "ergebnis": {
+        "id": "18109273916353980",
+        "link": "https://www.instagram.com/stories/temel.studio/4020339451096974895"
+      }
     },
     {
       "id": "kw44-sa-tiktok",
@@ -519,7 +523,12 @@
       "zeit": "2026-10-31T20:00:00+01:00",
       "text": "Tipp fürs Wochenende: Such deinen Betrieb bei Google Maps und prüf, ob Öffnungszeiten und Telefonnummer stimmen. Dauert eine Minute.",
       "medien": [],
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "veroeffentlicht_am": "2026-10-31T21:24:06.254Z",
+      "ergebnis": {
+        "id": "18146278222607718",
+        "link": "https://www.threads.com/@temel.studio/post/DfLHX_XnIdG"
+      }
     },
     {
       "id": "kw44-so-instagram",
