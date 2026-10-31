@@ -328,7 +328,7 @@
         "Folie 6 von 7, weißer Grund: Google.",
         "890 bis 1.400 €. Online in 1 bis 2 Wochen. Der erste Entwurf ist kostenlos, danach Festpreis."
       ],
-      "status": "geplant",
+      "status": "verpasst",
       "versuche": 1,
       "fehler": "POST /17841414918834298/media_publish: Media ID is not available (Die Medien können noch nicht veröffentlicht werden. Bitte warte noch einen Moment.)"
     },
@@ -370,7 +370,7 @@
       "medien": [
         "medien/2026-KW44/fr-story.jpg"
       ],
-      "status": "geplant",
+      "status": "verpasst",
       "versuche": 1,
       "fehler": "POST /17841414918834298/media_publish: Media ID is not available (Die Medien können noch nicht veröffentlicht werden. Bitte warte noch einen Moment.)"
     },
