@@ -450,7 +450,12 @@
       "alt": [
         "Weißer Grund, Text: Ehrlich: Wann hast du deine Website zuletzt geändert? A Diesen Monat, B Dieses Jahr, C Weiß ich nicht mehr, D Ich habe keine. Antworte mit A, B, C oder D."
       ],
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "veroeffentlicht_am": "2026-10-31T17:56:55.204Z",
+      "ergebnis": {
+        "id": "18012696035992293",
+        "link": "https://www.instagram.com/p/DfKvqaBGgFt/"
+      }
     },
     {
       "id": "kw44-sa-facebook",
@@ -464,7 +469,11 @@
       "alt": [
         "Weißer Grund, Text: Ehrlich: Wann hast du deine Website zuletzt geändert? A Diesen Monat, B Dieses Jahr, C Weiß ich nicht mehr, D Ich habe keine. Antworte mit A, B, C oder D."
       ],
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "veroeffentlicht_am": "2026-10-31T17:56:59.815Z",
+      "ergebnis": {
+        "id": "1106068909265831_122157969693388723"
+      }
     },
     {
       "id": "kw44-sa-story",
@@ -474,7 +483,9 @@
       "medien": [
         "medien/2026-KW44/sa-story.jpg"
       ],
-      "status": "geplant"
+      "status": "geplant",
+      "versuche": 1,
+      "fehler": "POST /17841414918834298/media_publish: Media ID is not available (Die Medien können noch nicht veröffentlicht werden. Bitte warte noch einen Moment.)"
     },
     {
       "id": "kw44-sa-tiktok",
