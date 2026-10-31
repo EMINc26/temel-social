@@ -494,7 +494,12 @@
       "zeit": "2026-10-31T12:00:00+01:00",
       "text": "Wann hast du deine Website zuletzt geändert? A diesen Monat, B dieses Jahr, C weiß ich nicht mehr, D ich habe keine.",
       "medien": [],
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "veroeffentlicht_am": "2026-10-31T13:31:10.402Z",
+      "ergebnis": {
+        "id": "18118560689081199",
+        "link": "https://www.threads.com/@temel.studio/post/DfKRQMvEUan"
+      }
     },
     {
       "id": "kw44-sa-threads-abend",
