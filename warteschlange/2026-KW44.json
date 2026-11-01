@@ -586,7 +586,12 @@
       "zeit": "2026-11-01T12:00:00+01:00",
       "text": "Niemand sollte eine Website kaufen, die er nicht gesehen hat.",
       "medien": [],
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "veroeffentlicht_am": "2026-11-01T13:51:20.731Z",
+      "ergebnis": {
+        "id": "18100381529565041",
+        "link": "https://www.threads.com/@temel.studio/post/DfM4Wp5jgMw"
+      }
     },
     {
       "id": "kw44-so-threads-abend",
