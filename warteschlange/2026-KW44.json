@@ -542,9 +542,13 @@
       "alt": [
         "Dunkler Grund, Text: Niemand sollte eine Website kaufen, die er nicht gesehen hat. Deshalb ist bei uns der erste Entwurf kostenlos."
       ],
-      "status": "geplant",
+      "status": "veroeffentlicht",
       "versuche": 1,
-      "fehler": "POST /17841414918834298/media_publish: Media ID is not available (Die Medien können noch nicht veröffentlicht werden. Bitte warte noch einen Moment.)"
+      "veroeffentlicht_am": "2026-11-01T22:41:11.441Z",
+      "ergebnis": {
+        "id": "18132245104902480",
+        "link": "https://www.instagram.com/p/DfN0_dVDVl6/"
+      }
     },
     {
       "id": "kw44-so-facebook",
@@ -573,7 +577,7 @@
         "medien/2026-KW44/so-story.jpg"
       ],
       "status": "geplant",
-      "versuche": 1,
+      "versuche": 2,
       "fehler": "POST /17841414918834298/media_publish: Media ID is not available (Die Medien können noch nicht veröffentlicht werden. Bitte warte noch einen Moment.)"
     },
     {
@@ -608,7 +612,12 @@
       "zeit": "2026-11-01T20:00:00+01:00",
       "text": "Welche Website eines Betriebs hier aus der Region findest du richtig gut, und warum?",
       "medien": [],
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "veroeffentlicht_am": "2026-11-01T22:41:22.273Z",
+      "ergebnis": {
+        "id": "18119007758008195",
+        "link": "https://www.threads.com/@temel.studio/post/DfN1ArsnzpK"
+      }
     }
   ],
   "hinweis": "Start 27.10. abends: Mo-Inhalte auf Mi 28.10., Di-Inhalte auf Do 29.10. verschoben (Mi/Do hatten keinen Feed-Post)."
