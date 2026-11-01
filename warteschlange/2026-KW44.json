@@ -542,7 +542,9 @@
       "alt": [
         "Dunkler Grund, Text: Niemand sollte eine Website kaufen, die er nicht gesehen hat. Deshalb ist bei uns der erste Entwurf kostenlos."
       ],
-      "status": "geplant"
+      "status": "geplant",
+      "versuche": 1,
+      "fehler": "POST /17841414918834298/media_publish: Media ID is not available (Die Medien können noch nicht veröffentlicht werden. Bitte warte noch einen Moment.)"
     },
     {
       "id": "kw44-so-facebook",
@@ -556,7 +558,11 @@
       "alt": [
         "Dunkler Grund, Text: Niemand sollte eine Website kaufen, die er nicht gesehen hat. Deshalb ist bei uns der erste Entwurf kostenlos."
       ],
-      "status": "geplant"
+      "status": "veroeffentlicht",
+      "veroeffentlicht_am": "2026-11-01T18:50:27.456Z",
+      "ergebnis": {
+        "id": "1106068909265831_122158442199388723"
+      }
     },
     {
       "id": "kw44-so-story",
@@ -566,7 +572,9 @@
       "medien": [
         "medien/2026-KW44/so-story.jpg"
       ],
-      "status": "geplant"
+      "status": "geplant",
+      "versuche": 1,
+      "fehler": "POST /17841414918834298/media_publish: Media ID is not available (Die Medien können noch nicht veröffentlicht werden. Bitte warte noch einen Moment.)"
     },
     {
       "id": "kw44-so-tiktok",
