@@ -576,7 +576,7 @@
       "medien": [
         "medien/2026-KW44/so-story.jpg"
       ],
-      "status": "geplant",
+      "status": "verpasst",
       "versuche": 2,
       "fehler": "POST /17841414918834298/media_publish: Media ID is not available (Die Medien können noch nicht veröffentlicht werden. Bitte warte noch einen Moment.)"
     },
